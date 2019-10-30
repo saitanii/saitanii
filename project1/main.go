@@ -8,8 +8,7 @@ import (
 //"hello/helper"
 
 func main() {
-	s := helper.Arr(5, 1)
-
+	s := helper.Arr(10, 1)
 	helper.Arrprint(s)
 	helper.Change(s, 7)
 	fmt.Println("___________")
